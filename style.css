@@ -1,0 +1,77 @@
+/* GLOBAL */
+body {
+  font-size: 1rem;
+  line-height: 1.7;
+  font-family: "Muli", sans-serif; }
+
+.card img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover; }
+
+/* NAVIGATION */
+h3, h4 {
+  line-height: 7rem; }
+
+h3 {
+  font-family: "Merriweather", serif;
+  font-size: 5rem; }
+
+/* CAROUSEL */
+.carousel-inner {
+  height: 100vh; }
+
+.carousel-item {
+  height: 100vh; }
+  .carousel-item img {
+    height: 100%;
+    object-fit: cover; }
+
+.carousel-caption {
+  top: 42%;
+  transform: translateY(-50%);
+  bottom: initial; }
+
+/* BRANDS & NEW ARRIVALS */
+.products a {
+  color: inherit; }
+
+/* TILES */
+.tiles h5 {
+  font-family: "Merriweather", serif;
+  font-size: 2.5rem; }
+.tiles .card-body {
+  text-align: center; }
+
+/*SUPPORT */
+/* CONTACT */
+.contact-us {
+  background: #eff2f5; }
+  .contact-us .card {
+    border: none;
+    background: #eff2f5; }
+  .contact-us .logo a {
+    color: inherit; }
+  .contact-us small {
+    font-size: 0.7rem; }
+
+/* FOOTER */
+.footer {
+  background: #c7c7c7; }
+  .footer .footer-text {
+    font-family: "Muli", sans-serif; }
+  .footer .footer-list {
+    padding: 1rem; }
+
+/* MEDIA */
+@media (max-width: 991px) {
+  h3 {
+    font-size: 3rem; }
+
+  .products .brands {
+    padding: 5rem 1rem 3rem 1rem; }
+  .products .arrivals {
+    padding: 0 1rem 1rem 1rem; }
+
+  .card {
+    margin: 0.5rem 0; } }

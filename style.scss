@@ -1,0 +1,125 @@
+/* GLOBAL */
+
+$font-decor: 'Merriweather', serif;
+
+$font-regular: 'Muli', sans-serif;
+
+$background-light: #eff2f5;
+
+$background-dark: #c7c7c7;
+
+body {
+  font-size: 1rem;
+  line-height: 1.7;
+  font-family: $font-regular;
+}
+
+.card {
+    img {
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+    }
+}
+
+/* NAVIGATION */
+
+h3, h4 {
+  line-height: 7rem;
+}
+
+h3 {
+  font-family: $font-decor;
+  font-size: 5rem;
+}
+
+/* CAROUSEL */
+
+.carousel-inner {
+  height: 100vh;
+}
+
+.carousel-item {
+  height: 100vh;
+  img {
+    height: 100%;
+    object-fit: cover;
+  }
+}
+
+.carousel-caption {
+  top: 42%;
+  transform: translateY(-50%);
+  bottom: initial;
+}
+
+/* BRANDS & NEW ARRIVALS */
+
+.products {
+  a {
+  color: inherit;
+  }
+}
+
+/* TILES */
+
+.tiles {
+  h5 {
+    font-family: $font-decor;
+    font-size: 2.5rem;
+  }
+  .card-body {
+    text-align: center;
+  }
+}
+
+/*SUPPORT */
+
+/* CONTACT */
+
+.contact-us {
+  background: $background-light;
+  .card {
+    border: none;
+    background: $background-light;
+  }
+  .logo {
+    a {
+      color: inherit;
+    }
+  }
+  small {
+    font-size: 0.7rem;
+  }
+}
+
+/* FOOTER */
+
+.footer {
+  background: $background-dark;
+  .footer-text {
+    font-family: $font-regular;
+  }
+  .footer-list {
+    padding: 1rem;
+  }
+}
+
+/* MEDIA */
+
+@media (max-width: 991px) {
+  h3 {
+    font-size: 3rem;
+  }
+  .products {
+    .brands {
+      padding: 5rem 1rem 3rem 1rem;
+    }
+    .arrivals {
+      padding: 0 1rem 1rem 1rem;
+    }
+  }
+  .card {
+      margin: 0.5rem 0;
+  }
+}
